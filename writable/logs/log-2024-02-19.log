@@ -23,3 +23,21 @@ in SYSTEMPATH\CodeIgniter.php on line 252.
  1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
  2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
  3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-19 13:35:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "signup_form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup_form.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('signup_form', [], true)
+ 3 APPPATH\Controllers\WebsiteController.php(8): view('signup_form')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WebsiteController->signup_form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebsiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:39:22 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\signup_form\signup_form.php on line 3.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('signup_form/signup_form', [], true)
+ 3 APPPATH\Controllers\WebsiteController.php(8): view('signup_form/signup_form')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WebsiteController->signup_form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebsiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

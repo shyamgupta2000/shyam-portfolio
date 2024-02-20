@@ -1,0 +1,9 @@
+CRITICAL - 2024-02-20 06:34:50 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\signup_form\signup_form.php on line 3.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('signup_form/signup_form', [], true)
+ 3 APPPATH\Controllers\WebsiteController.php(8): view('signup_form/signup_form')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WebsiteController->signup_form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebsiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
